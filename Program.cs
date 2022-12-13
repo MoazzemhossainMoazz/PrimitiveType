@@ -14,6 +14,11 @@ namespace PrimitiveType
             var lastName = "Hossain";
             var fullName = firstName + " " + lastName;
             Console.WriteLine(fullName);
+
+            const float Pi = 3.1416f;
+            var age = 26;
+            Console.WriteLine(Pi);
+            Console.WriteLine(age);
             Console.ReadLine();
         }
     }
